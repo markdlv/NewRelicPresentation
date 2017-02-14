@@ -1,4 +1,4 @@
-# [Node.js agent documentation](https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/introduction-new-relic-nodejs)
+[Node.js agent documentation](https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/introduction-new-relic-nodejs)
 
 > After installing the Node.js agent, extend your instrumentation:
 > * [Custom instrumentation](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-instrumentation): Implement Node.js custom instrumentation.
@@ -8,7 +8,7 @@
 
 HSLIDE
 
-# Our journey through the docs
+Our journey through the docs
 
 * [Node.js agent API](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-agent-api)
     * Get this automatically by requiring in newrelic
@@ -41,7 +41,7 @@ Quick overview of how newrelic starts up
 
 VSLIDE
 
-# Configuration methods and precedence
+Configuration methods and precedence
 ![new relic config overrides](https://docs.newrelic.com/sites/default/files/styles/inline_660px/public/thumbnails/image/nodejs%20config%20cascade_0.png?itok=r_yPD--g)
 
 * NOTE: some properties only have an config-file option
@@ -74,4 +74,4 @@ HSLIDE
 
 HSLIDE
 
-# Questions?
+Questions?
