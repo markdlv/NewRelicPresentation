@@ -1,23 +1,18 @@
-[Node.js agent documentation](https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/introduction-new-relic-nodejs)
-
-> After installing the Node.js agent, extend your instrumentation:
-> * [Custom instrumentation](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-instrumentation): Implement Node.js custom instrumentation.
-> * [Collect custom metrics](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-metrics): Collect custom metrics via an API call.
-> * [Node.js agent API](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-agent-api): Use the API to control, customize, or extend the functionality of the Node.js agent.
-> * [Page load timing process](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/page-load-timing-nodejs): Integrate the Node.js agent with New Relic Browser to gain visibility into end-user activity.
+[Node.js agent documentation intro](https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/introduction-new-relic-nodejs)
 
 HSLIDE
 
-Our journey through the docs
+Best documentation pages
 
 * [Node.js agent API](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-agent-api)
-    * Get this automatically by requiring in newrelic
-    * NOTE: we can decorate current transactions with custom parameters
+    * Get this automatically by requiring newrelic module
 * [Node VM measurements](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/node-vm-measurements)
     * These show up as *metrics* in the Insights section
 * [Node.js custom metrics](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-metrics)
 * [Node.js custom instrumentation](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-instrumentation)
 * [Page load timing](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/page-load-timing-nodejs)
+
+NOTE: we can decorate current transactions with custom parameters
 
 HSLIDE
 
