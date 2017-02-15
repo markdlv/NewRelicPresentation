@@ -77,7 +77,7 @@ HSLIDE
     * Stats on invoicing
     * Stats on kafka message processing
     * Stats on kafka re-balance
-* Finally: Insights dashboards
+* Finally: [Insights dashboards](https://insights.newrelic.com/accounts/864720/dashboards/273773)
 
 NOTE: In order: addCustomParameters, recordEvent, recordEvent, recordMetric, incrementMetric). For billing jobs, both from a system/service health perspective, but possibly also just from an interest perspective.  For example, I'd be curious to see things like average user count, counts for concurrent vs. configured orgs, etc.
 
