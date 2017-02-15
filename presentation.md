@@ -71,8 +71,19 @@ Finding a custom event
 HSLIDE
 
 * Dream a bit about issues this might solve
+    * More insight into who's using our APIs (via addCustomParameters)
+    * Stats on billing jobs (via recordEvent)
+    * Stats on invoicing (via recordEvent)
+    * Stats on kafka message processing (via recordMetric)
+    * Stats on kafka re-balance (via incrementMetric)
 * Finally: Insights dashboards
+
+NOTE: For billing jobs, both from a system/service health perspective, but possibly also just from an interest perspective.  For example, I'd be curious to see things like average user count, counts for concurrent vs. configured orgs, etc.
 
 HSLIDE
 
+Thanks!
+
 Questions?
+
+NOTE: Mainly, I just want to encourage us to continue integrating with NewRelic.  We've got some new tools to do that with the ServiceInstrumentor, but I know the main battle has been just being *aware* of the features.
