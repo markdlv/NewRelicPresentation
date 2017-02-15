@@ -5,20 +5,14 @@ HSLIDE
 Best documentation pages
 
 * [Node.js agent API](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-agent-api)
-    * Get this automatically by requiring newrelic module
+    * Defaults record quite a bit
 * [Node VM measurements](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/node-vm-measurements)
     * These show up as *metrics* in the Insights section
 * [Node.js custom metrics](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-metrics)
 * [Node.js custom instrumentation](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/nodejs-custom-instrumentation)
 * [Page load timing](https://docs.newrelic.com/docs/agents/nodejs-agent/supported-features/page-load-timing-nodejs)
 
-NOTE: we can decorate current transactions with custom parameters
-
-HSLIDE
-
-Program against our interfaces (in SDC)
-* ServiceMetricsReporter
-* ServiceInstrumentor
+NOTE: For Node.js agent API - we can decorate current transactions with custom parameters!
 
 HSLIDE
 
@@ -48,10 +42,20 @@ On an EC2 instance:
 * Written to / read from [/opt/](https://bitbucket.org/inindca/billing-service/raw/a1a3e5b94d90abbb8c13200f66b262786d818ac2/packer-ansible/ansible/ininservice/roles/billing-configure/templates/billing-supervisord.ini.j2)
 * Add [environment variables](https://bitbucket.org/inindca/subscription-service/raw/612fec79d7e2aee03806fa6d8a1af4b69d31c847/packer-ansible/ansible/ininservice/roles/subscription-configure/templates/subscription-supervisord.ini.j2) to override
 
+NOTE: That base AMI file is for all node services, so make sure to put lots of team leads on any PR.
+
 HSLIDE
 
+Program against our interfaces (in SDC)
+* [ServiceMetricsReporter](https://bitbucket.org/inindca/billing-service/src/9897519d189aa0e1e8ece1f8bce10d2bccdde2ec/src/AppDependencyBuilder.js?at=master&fileviewer=file-view-default#AppDependencyBuilder.js-1038)
+* [ServiceInstrumentor](https://bitbucket.org/inindca/billing-service/src/9897519d189aa0e1e8ece1f8bce10d2bccdde2ec/src/interop/zuora/ZuoraBillingHandler.js?fileviewer=file-view-default#ZuoraBillingHandler.js-761)
+
+NOTE: How can we integrate further?
+
+HSLIDE
+
+* [Setup local machine](https://bitbucket.org/inindca/service-delivery-common/src/c97f082727f61e26f97c7acd78637df70850fe63/README.md?fileviewer=file-view-default)
 * Demo of testing a new metric or instrumentation
-* (Make sure this is already documented (outside this presentation, maybe in SDC since it will apply to all services?))
 
 HSLIDE
 
@@ -59,13 +63,15 @@ Finding a metric in New Relic
 * Example: VM measurements (gc, memory, cpu)
 * Example: our custom metric
 
+VSLIDE
+
 Finding a custom event
 * Example: our custom event
 
 HSLIDE
 
 * Dream a bit about issues this might solve
-* Show insights dashboards
+* Finally: Insights dashboards
 
 HSLIDE
 
