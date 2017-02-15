@@ -33,7 +33,7 @@ VSLIDE
 Configuration methods and precedence
 ![new relic config overrides](https://docs.newrelic.com/sites/default/files/styles/inline_660px/public/thumbnails/image/nodejs%20config%20cascade_0.png?itok=r_yPD--g)
 
-* NOTE: some properties only have an config-file option
+* NOTE: some properties only have one option (config file or environment variable)
 
 VSLIDE
 
