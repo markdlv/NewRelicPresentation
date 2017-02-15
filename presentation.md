@@ -78,7 +78,7 @@ HSLIDE
     * Stats on kafka re-balance (via incrementMetric)
 * Finally: Insights dashboards
 
-NOTE: For billing jobs, both from a system/service health perspective, but possibly also just from an interest perspective.  For example, I'd be curious to see things like average user count, counts for concurrent vs. configured orgs, etc.
+NOTE: In order: addCustomParameters, recordEvent, recordEvent, recordMetric, incrementMetric). For billing jobs, both from a system/service health perspective, but possibly also just from an interest perspective.  For example, I'd be curious to see things like average user count, counts for concurrent vs. configured orgs, etc.
 
 HSLIDE
 
