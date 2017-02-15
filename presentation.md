@@ -54,8 +54,9 @@ NOTE: How can we integrate further?
 
 HSLIDE
 
-* [Setup local machine](https://bitbucket.org/inindca/service-delivery-common/src/c97f082727f61e26f97c7acd78637df70850fe63/README.md?fileviewer=file-view-default)
+* [Setup local machine](https://bitbucket.org/inindca/service-delivery-common/src/c66f10c7ee73?at=master)
 * Demo of testing a new metric or instrumentation
+    * Note how [key transactions](https://docs.newrelic.com/docs/apm/transactions/key-transactions/introduction-key-transactions) work
 
 HSLIDE
 
