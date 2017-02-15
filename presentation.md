@@ -71,7 +71,7 @@ Finding a custom event
 HSLIDE
 
 * Dream a bit about issues this might solve
-    * More insight into who's using our APIs (via addCustomParameters)
+    * More insight into who is using our APIs (via addCustomParameters)
     * Stats on billing jobs (via recordEvent)
     * Stats on invoicing (via recordEvent)
     * Stats on kafka message processing (via recordMetric)
