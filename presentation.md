@@ -71,11 +71,11 @@ Finding a custom event
 HSLIDE
 
 * Dream a bit about issues this might solve
-    * More insight into who is using our APIs (via addCustomParameters)
-    * Stats on billing jobs (via recordEvent)
-    * Stats on invoicing (via recordEvent)
-    * Stats on kafka message processing (via recordMetric)
-    * Stats on kafka re-balance (via incrementMetric)
+    * More insight into who is using our APIs
+    * Stats on billing jobs
+    * Stats on invoicing
+    * Stats on kafka message processing
+    * Stats on kafka re-balance
 * Finally: Insights dashboards
 
 NOTE: In order: addCustomParameters, recordEvent, recordEvent, recordMetric, incrementMetric). For billing jobs, both from a system/service health perspective, but possibly also just from an interest perspective.  For example, I'd be curious to see things like average user count, counts for concurrent vs. configured orgs, etc.
